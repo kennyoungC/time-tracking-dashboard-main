@@ -34,5 +34,3 @@ Being able to finally work with JSON files is a big accomplishment for me even t
 - Website - [kenneth](https://time-tracking-dashboard-kenneth.netlify.app/)
 - Frontend Mentor - [@kennyoungc](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@kenneth](https://twitter.com/Obikenneth913g1?t=DNwvUr7DPrXmCW2AiL2NSg&s=09)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
