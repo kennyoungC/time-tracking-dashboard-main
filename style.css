@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(226, 43%, 10%) !important;
+}
+.report-sec {
+  padding: 50px 48px;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 16px;
+}
+.header {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 16px;
+}
+.periodicity {
+  padding: 25px 48px;
+  justify-content: space-between;
+}
+.bg-outer-play,
+.bg-outer-study,
+.bg-outer-exercise,
+.bg-outer-social,
+.bg-outer-self-care,
+.bg-outer-work {
+  border-radius: 16px;
+}
+.bg-outer-work {
+  background-color: hsl(15, 100%, 70%);
+}
+.bg-inner:hover {
+  cursor: pointer;
+  background-color: hsl(235, 45%, 61%);
+}
+.bg-outer-study {
+  background-color: hsl(348, 100%, 68%);
+}
+.bg-outer-exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+.bg-outer-social {
+  background-color: hsl(264, 64%, 52%);
+}
+.bg-outer-self-care {
+  background-color: hsl(43, 84%, 65%);
+}
+.bg-outer-play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.bg-inner {
+  padding: 28px;
+  padding-top: 15px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 16px;
+}
+.hours {
+  font-size: 48px;
+}
+.img-cont {
+  margin-right: 12px;
+  height: 65px;
+  overflow: hidden;
+}
+.svg-images {
+  height: 95px;
+}
+.periodicity .active {
+  color: #fff !important;
+}
+.daily:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.monthly:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+.weekly:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+.daily,
+.weekly,
+.monthly {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 985px) {
+  .jeremy-pics {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 12px;
+  }
+  .report-sec {
+    padding: 12px;
+  }
+  .sub-header {
+    gap: 24px;
+  }
+  .name {
+    font-size: 48px !important;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    border-radius: 0 !important;
+  }
+  .jeremy-pics {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 12px;
+  }
+  .name {
+    font-size: 36px !important;
+  }
+  .report-sec {
+    border-radius: 0;
+  }
+}
